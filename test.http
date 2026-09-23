@@ -1,0 +1,13 @@
+### V4
+
+POST http://localhost:4004/odata/v4/s/RecipeAssessments(00b6bad9-254f-4b03-9e80-a3957b87a6bb)/TargetConsumers HTTP/1.1
+Content-Type: application/json
+
+{"targetConsumer_ID":"6fa74ad2-a4e8-49b8-b1ae-f22a0f0557b5"}
+
+### V2
+
+POST http://localhost:4004/odata/v2/s/RecipeAssessments(guid'00b6bad9-254f-4b03-9e80-a3957b87a6bb')/TargetConsumers HTTP/1.1
+Content-Type: application/json
+
+{"targetConsumer_ID":"6fa74ad2-a4e8-49b8-b1ae-f22a0f0557b5"}
